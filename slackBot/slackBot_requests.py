@@ -17,9 +17,12 @@ def post_message_to_slack(channel, text):
     try:
         payload_str = json.dumps(payload,ensure_ascii=True).encode("utf-8")
         r = requests.post(CHAT_POST_MSG_URL, data=payload_str, headers=headers)
+
         if r.status_code == 200:
-            print(r.text)
+            respJson =r.json()
+            if respJson['ok'] == False:
+                print(f"[HTTP CODE 200][SLACKERROR] {respJson['error']} || #{channel} Msg:{text}")
         else:
-            print("An error occurred, code={}".format(r.status_code))
+            print("[HTTP ERROR]An error occurred, code={}".format(r.status_code))
     except requests.exceptions.RequestException as error:
         print(f'Error: {error}')

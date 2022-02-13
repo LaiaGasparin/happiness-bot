@@ -1,9 +1,13 @@
 nFormal Challenge App
 ========================
 
+Please go to a console, within the project root directory and type: "make run"
+
 This project is a simple bot posting message into a nFormal slack channel.
 Rules of the challenge:
-Minimum requirements
+
+
+Challenge Minimum requirements
 * Program written in python
 * The team should be represented in a json file
 * Slack channel to be used: #happy-bot-laia
