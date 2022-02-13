@@ -1,4 +1,4 @@
-nFormal Challenge App
+Slack Bot Challenge App
 ========================
 
 Please go to a console, within the project root directory and type: "make run"
