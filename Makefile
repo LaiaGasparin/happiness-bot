@@ -3,7 +3,7 @@ venv/bin/activate: requirements.txt
  ./venv/bin/pip install -r requirements.txt
 
  run: venv/bin/activate
- ./venv/bin/python3 main.py
+ ./venv/bin/python3 slackBot/slackBot_main.py
 
  clean:
  rm -rf __pycache__
