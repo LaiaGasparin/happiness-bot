@@ -1,0 +1,48 @@
+{
+  "members" : [
+    {
+      "id":1,
+      "name": "James Fabbi",
+      "nickName" : "Jimmy Fabs",
+      "role" :  "Founder",
+      "interest" : "snowboarding"
+    },
+    {
+      "id":2,
+      "name": "Baha Badran",
+      "nickName" : "Captain Picard",
+      "role" :  "Founder",
+      "interest" : "night life"
+    },
+    {
+      "id":3,
+      "name": "Anthony Cammisano",
+      "nickName" : "Mr. Anthony",
+      "role" :  "Lead Technical Consultant",
+      "interest" : "video games"
+    },
+    {
+      "id": 4,
+      "name": "Dominique Ducharme",
+      "nickName" : "Do",
+      "role" :  "Functional Consultant",
+      "interest" : "deco and shopping"
+    },
+    {
+      "id": 5,
+      "name": "Jack Dundas",
+      "nickName" : "Jacky Boy",
+      "role" :  "Technical Consultant",
+      "interest" : "robotics"
+    },
+    {
+      "id":6,
+      "name": "Anthony Najjar",
+      "nickName" : "Tony",
+      "role" :  "Functional Consultant",
+      "interest" : "music"
+    }
+  ]
+
+
+}
